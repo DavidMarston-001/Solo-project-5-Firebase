@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-family: '';
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.container {
+    text-align: center;
+    margin: 51px 0;
+    width: 320px;
+}
+
+#comment {
+    width: 317px;
+    height: 118px;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    margin: 0 0 9px 0;
+    font-size: 15px;
+    color: white;
+}
+
+.input {
+    flex-wrap: wrap;
+}
+
+.to-for {
+    background: #444059;
+    border-radius: 8px;
+    border: none;
+    width: 153px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 9px;
+    font-size: 15px;
+    color: white;
+}
+
+#publishBtn {
+    width: 317px;
+    height: 61px;
+    background: #28A9F1;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+
+#publishBtn:hover {
+    background-color: #0284C7;
+    ;
+}
+
+.header {
+    font-size: 25px;
+    user-select: none;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    user-select: none;
+}
+
+h4{
+    font-weight: 700;
+}
+
+.union {
+    background: white;
+    color: black;
+    font-size: 14px;
+    padding: 1px 14px;
+    text-align: start;
+    width: 377px;
+    margin-bottom: 20px;
+}
+
+#interactionsList {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
